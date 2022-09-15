@@ -4,9 +4,7 @@ class Strom :
     public elektronik
 {
 public:
-    virtual double getVerbrauch() {
-        return verbrauch;
-    }
+    virtual double getVerbrauch();
 private:
     double verbrauch = 0;
 };
