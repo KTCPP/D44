@@ -6,6 +6,6 @@ bool geraet::schalten() {
 	return true;
 }
 
-double geraet::gesamtVerbrauch(Strom* power){
-	return power->getVerbrauch()+x;
+double geraet::gesamtVerbrauch(Strom& power){
+	return power.getVerbrauch()+x;
 }

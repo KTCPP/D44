@@ -12,7 +12,7 @@ TEST(geraet, schalten) {
 
 TEST(geraet, verbrauch) {
 	geraet tool;
-	MockStrom* power = new MockStrom();
+	MockStrom power;
 	double verbrauch = tool.gesamtVerbrauch(power);
 	EXPECT_EQ(verbrauch, 1);
 	tool.schalten();

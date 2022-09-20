@@ -6,7 +6,7 @@ class geraet : public elektronik
 {
 public:
 	bool schalten();
-	double gesamtVerbrauch(Strom* power);
+	double gesamtVerbrauch(Strom& power);
 private:
 	double x=0;
 };
